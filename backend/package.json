@@ -1,0 +1,32 @@
+{
+	"name": "test-kafka",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "prettier --write .",
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"dev": "nodemon --env-file=.env --exec tsx src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"adm-zip": "^0.5.16",
+		"cookie-parser": "^1.4.7",
+		"express": "^5.1.0",
+		"kafkajs": "^2.2.4",
+		"multer": "^2.0.2",
+		"random-word-slugs": "^0.1.7"
+	},
+	"devDependencies": {
+		"@types/adm-zip": "^0.5.7",
+		"@types/express": "^5.0.5",
+		"@types/multer": "^2.0.0",
+		"@types/node": "^25.0.2",
+		"typescript": "^5.9.3"
+	}
+}
