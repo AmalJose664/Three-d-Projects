@@ -39,8 +39,10 @@ test-server
 Create a `.env` file in this directory: test-server
 
 ```env
+
 KAFKA_USERNAME=
 KAFKA_PASSWORD=
+
 ```
 
 <br/>

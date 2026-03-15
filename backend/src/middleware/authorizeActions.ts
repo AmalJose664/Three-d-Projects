@@ -10,7 +10,7 @@ export const authorizeActions = (req: Request, res: Response, next: NextFunction
 
 	if (token !== server_token) {
 		console.log("Invalid token");
-		console.log(server_token, "<<<>>>>", token);
+		console.log(server_token, ">>", token);
 
 		return res.status(401).json({ message: "File uploading failed, Invalid token" });
 	}

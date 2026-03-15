@@ -13,6 +13,7 @@ router.get(
 	validateObjectId('deploymentId'),
 	downloadFile
 );
+
 router.use(
 	'/projects/:projectId/:deploymentId',
 	validateObjectId('projectId'),

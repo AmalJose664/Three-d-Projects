@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 
 
 export function provideProjectFiles(req: Request, res: Response, next: NextFunction): void {
+
 	const projectId = req.params.projectId;
 	const deploymentId = req.params.deploymentId;
 
