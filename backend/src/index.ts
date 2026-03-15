@@ -7,7 +7,11 @@ import router from "./routes/routes.js";
 import { validateEnv } from "./config/env.config.js";
 
 
+
+
 const __filename = fileURLToPath(import.meta.url);
+
+
 const __dirname = path.dirname(__filename);
 
 const app = express();
